@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(https://cutewallpaper.org/21/anime-gif-wallpaper-1920x1080/Pin-by-Buu-Dang-on-iPhone-6S-Plus-Wallpapers-Must-to-Have-in-.gif);
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    background-color: #080B10;
+}
+
+.navbar-brand {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 40px;
+}
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    letter-spacing: 3px;
+    margin-left: 50px;
+}
+
+.bgcolor.scrolled {
+    background-color: black;
+    z-index: 100000000;
+    height: 70;
+}
+
+#h-text {
+    font-family: 'Chicle', cursive;
+    font-size: 100px;
+    text-align: center;
+    background: -webkit-linear-gradient(#89D4CF, #734AE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#h-text2 {
+    width: 400px;
+    text-align: center;
+    padding-left: 80px;
+    color: white;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/* button ripple effect */
+
+.ripple {
+    position: absolute;
+    left: 30%;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #895eff radial-gradient(circle, transparent 1%, #895eff 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #6e45e1;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+/* Button style */
+
+.ripple-btn {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 45px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+    box-shadow: 0 0 4px #999;
+    outline: none;
+}
+
+
+/* about me section */
+
+.aboutmepic {
+    border-radius: 50%;
+}
+
+.about-title {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+
+.hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    ;
+    transform-origin: bottom-right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom-left;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+/* glowing-icons */
+
+.glowing-icons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+ul.glow-icons li {
+    position: relative;
+    list-style: none;
+}
+
+ul.glow-icons li a {
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: #18191f;
+    line-height: 110px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+ul.glow-icons li a .fa {
+    font-size: 50px;
+    color: #555;
+}
+
+ul.glow-icons li a:hover .fa {
+    color: #ff6ec7;
+    text-shadow: 0 0 15px #ff6ec7;
+}
+
+ul.glow-icons li:nth-child(3) a:hover .fa {
+    color: #ff073a;
+    text-shadow: 0 0 15px #ff073a;
+}
+
+ul.glow-icons li:nth-child(2) a:hover .fa {
+    color: #44eafc;
+    text-shadow: 0 0 15px #44eafc;
+}
+
+ul.icons li:nth-child(4) a:hover .fa {
+    color: #40ff59;
+    text-shadow: 0 0 15px #40ff59;
+}
+
+
+/* main */
+
+.main {
+    margin-top: 50px;
+}
+
+.title-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.view-all {
+    font-size: 12px;
+    font-weight: 700;
+    color: white
+}
+
+.anime-pic {
+    width: 250px;
+    height: 400px;
+}
+
+
+/* footer  */
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+
+/* hovers */
+
+.card {
+    transition: background 0.5s;
+}
+
+.card:hover {
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+/* line */
+
+.line {
+    background-color: #c73e1d;
+    background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+    height: 3px;
+    animation: gradient 2s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
