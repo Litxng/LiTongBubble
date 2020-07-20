@@ -423,3 +423,22 @@ ul.icons li:nth-child(4) a:hover .fa {
         background-position: 0% 50%;
     }
 }
+
+
+/* blog */
+
+.header-carousel {
+    margin-top: 100px;
+}
+
+.blog {
+    position: absolute;
+    right: 70px;
+    top: 170px;
+    font-family: 'Chicle', cursive;
+    font-size: 150px;
+    letter-spacing: 20px;
+    background: -webkit-linear-gradient(#7EE8FA, #EEC0C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
