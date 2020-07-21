@@ -22,6 +22,10 @@ body {
     font-size: 40px;
 }
 
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+}
+
 .header-text {
     position: absolute;
     top: 30%;
@@ -381,23 +385,47 @@ ul.icons li:nth-child(4) a:hover .fa {
 
 /* hovers */
 
-.card {
-    transition: background 0.5s;
-}
-
-.card:hover {
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+.card:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    -webkit-background-size: 400%;
     background-size: 400%;
-    z-index: 1;
-    animation: glow 8s linear infinite;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: animate 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease;
 }
 
-@keyframes glow {
+.card:hover:before {
+    opacity: 1;
+}
+
+.card:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+}
+
+@keyframes animate {
     0% {
-        background-position: 0%;
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
     }
     100% {
-        background-position: 400%;
+        background-position: 0 0;
     }
 }
 
@@ -427,18 +455,18 @@ ul.icons li:nth-child(4) a:hover .fa {
 
 /* blog */
 
-.header-carousel {
-    margin-top: 100px;
-}
-
 .blog {
     position: absolute;
-    right: 70px;
+    right: 60px;
     top: 170px;
-    font-family: 'Chicle', cursive;
+    font-family: 'Concert One', cursive;
     font-size: 150px;
     letter-spacing: 20px;
     background: -webkit-linear-gradient(#7EE8FA, #EEC0C6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.latest {
+    margin-top: 30px;
 }
