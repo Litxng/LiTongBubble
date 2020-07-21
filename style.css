@@ -470,3 +470,11 @@ ul.icons li:nth-child(4) a:hover .fa {
 .latest {
     margin-top: 30px;
 }
+
+
+/* twitter */
+
+.blog-fonts {
+    font-family: 'Bubblegum Sans', cursive;
+    letter-spacing: 3px;
+}
