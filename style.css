@@ -521,3 +521,30 @@ ul.icons li:nth-child(4) a:hover .fa {
     font-size: 80px;
     color: white;
 }
+
+
+/* website */
+
+.wbanner-text {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+}
+
+.wportfolio-text {
+    font-size: 11vw;
+    font-family: 'Concert One', cursive;
+    background: -webkit-linear-gradient(#9795EF, #F9C5D1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+}
+
+.website-text {
+    font-family: 'Concert One', cursive;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(#AD1DEB, #6E72FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8vw;
+}
