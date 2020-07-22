@@ -502,10 +502,22 @@ ul.icons li:nth-child(4) a:hover .fa {
 .lasercut {
     font-family: 'Concert One', cursive;
     font-size: 80px;
-    width: 500px;
-    letter-spacing: 10px;
+    width: 400px;
+    letter-spacing: 5px;
     background: -webkit-linear-gradient(#7EE8FA, #EEC0C6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: right;
+    position: absolute;
+    right: 10px;
+}
+
+.l_title {
+    background-color: #9795EF;
+    height: 100px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 80px;
+    color: white;
 }
