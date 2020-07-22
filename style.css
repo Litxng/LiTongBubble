@@ -17,6 +17,10 @@ body {
     background-color: #080B10;
 }
 
+.navbar {
+    height: 70px;
+}
+
 .navbar-brand {
     font-family: 'Zhi Mang Xing', cursive;
     font-size: 40px;
@@ -471,10 +475,37 @@ ul.icons li:nth-child(4) a:hover .fa {
     margin-top: 30px;
 }
 
-
-/* twitter */
-
 .blog-fonts {
     font-family: 'Bubblegum Sans', cursive;
     letter-spacing: 3px;
+}
+
+
+/* lasercut.html */
+
+.banner-text {
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+.portfolio-text {
+    font-size: 110px;
+    font-family: 'Concert One', cursive;
+    background: -webkit-linear-gradient(#9795EF, #F9C5D1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    letter-spacing: 5px;
+}
+
+.lasercut {
+    font-family: 'Concert One', cursive;
+    font-size: 80px;
+    width: 500px;
+    letter-spacing: 10px;
+    background: -webkit-linear-gradient(#7EE8FA, #EEC0C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
 }
