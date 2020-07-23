@@ -362,20 +362,20 @@ ul.glow-icons li:nth-child(4) a:hover .fa {
     font-size: 14px
 }
 
-.social-icons a.facebook:hover {
-    background-color: #3b5998
+.social-icons a.youtube:hover {
+    background-color: red
 }
 
 .social-icons a.twitter:hover {
     background-color: #00aced
 }
 
-.social-icons a.linkedin:hover {
-    background-color: #007bb6
+.social-icons a.instagram:hover {
+    background-color: #ea4c89
 }
 
-.social-icons a.dribbble:hover {
-    background-color: #ea4c89
+.social-icons a.github:hover {
+    background-color: green
 }
 
 @media (max-width:767px) {
@@ -547,4 +547,52 @@ ul.glow-icons li:nth-child(4) a:hover .fa {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 8vw;
+}
+
+
+/* contact */
+
+.cbanner-text {
+    font-size: 200px;
+    font-family: 'Concert One', cursive;
+    background: -webkit-linear-gradient(#FC575E, #90D5EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.contact-form {
+    border: 2px solid white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.form-control {
+    background-color: transparent!important;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+@media screen and (max-width: 992px) {
+    h1.cbanner-text {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1.cbanner-text {
+        font-size: 60px;
+    }
 }
