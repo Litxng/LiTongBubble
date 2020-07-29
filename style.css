@@ -7,6 +7,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* the background gif image */
+
 header {
     background-image: url(https://cutewallpaper.org/21/anime-gif-wallpaper-1920x1080/Pin-by-Buu-Dang-on-iPhone-6S-Plus-Wallpapers-Must-to-Have-in-.gif);
     background-size: cover;
@@ -33,17 +36,26 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.header-text {
-    position: absolute;
-    top: 30%;
-    letter-spacing: 3px;
-    margin-left: 50px;
-}
+
+/* this is for animating the navbar */
 
 .bgcolor.scrolled {
     background-color: black;
     z-index: 100000000;
     height: 70;
+}
+
+
+/* the text over the background image */
+
+
+/* to position the text */
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    letter-spacing: 3px;
+    margin-left: 50px;
 }
 
 #h-text {
@@ -114,6 +126,9 @@ body {
     font-size: 50px;
     letter-spacing: 4px;
 }
+
+
+/* the code for text hovers */
 
 .hover {
     display: inline-block;
@@ -390,7 +405,7 @@ ul.glow-icons li:nth-child(4) a:hover .fa {
 }
 
 
-/* hovers */
+/* glowing card hovers */
 
 .card:before {
     content: '';
@@ -437,7 +452,7 @@ ul.glow-icons li:nth-child(4) a:hover .fa {
 }
 
 
-/* line */
+/* glowing animated bar */
 
 .line {
     background-color: #c73e1d;
