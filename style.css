@@ -623,3 +623,7 @@ ul.glow-icons li:nth-child(4) a:hover .fa {
         font-size: 20px;
     }
 }
+
+.card {
+    cursor: pointer;
+}
