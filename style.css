@@ -11,7 +11,7 @@ html {
 /* the background gif image */
 
 header {
-    background-image: url("https://techcommunity.microsoft.com/t5/image/serverpage/image-id/469874iFE0D4F020442C5F9/image-size/large?v=v2&px=999");
+    background-image: url('assets/header.gif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
